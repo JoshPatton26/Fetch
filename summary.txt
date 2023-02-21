@@ -1,0 +1,24 @@
+Q1)
+    The main reason I chose the language C for this assignment is because it is one of my most comfortable languages to code with. 
+    In my experience with C getting input from the terminal and read/writing input from files has alsways been straight forward and easier
+    to comprehend. The tools I chose to use helped me complete this task were pretty basic. I used stdio.h to help me with the input/output
+    of the program such as reading the data from .csv, reading the given arguments, and printf/fscanf statements and opening files are all 
+    included in this library. For the stdlib.h library, I used this to help me convert char pointers to integers and to exit the code if an 
+    error occured with opening the given file. Finally, for string.h, I used this library to help me compare two 'strings' as well as copying
+    onr 'string' to another. I put string in single quotes because I am referring these variables as strings but C does not include a data 
+    type for string, so they are char pointers.
+
+Q2)
+    The advantages of using C for this program is C has fast performance for very large csv files, it is easy to read/write, and C allows me 
+    to communicate more with the computer's architecture to optimize the speed of the execution/compilation time. Disadvantages of using C is 
+    that C does not have built-in garbage collection like Java does, so the garbage collection is left to the user, lack of object orientation,
+    however I handled this by using a struct in the same way I would use a class in an OOP language, and the presense of run-time checking. 
+    Another big issue that I ran into while doing this project is that C does not include a data type for dates, so these values were stored as
+    char * (strings) and had to be compared as such.
+
+Q3)
+    My most favorite coding project for school would have to be when I created my own software application for drone automation in a software 
+    engineering course. This was a challenging project, but also very fun in the process. I worked in a group for this project and ended up taking 
+    the lead after the original team leader failed to follow team norms and failed to get the project to an acceptable version for the submission.
+    In the end, my team did very well in work distribution, communication and delivered a project that got an A for the project and in the class 
+    graded based off of the performance and level of completion of the project.
