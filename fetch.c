@@ -12,8 +12,8 @@ struct Users* sortbydate(struct Users *user, size_t count){
     char tempname[BUFSIZ], tempdate[BUFSIZ];
     int i=0, j=0, tempbal = 0;
 
-    for(i=0; i <= 4; i++) {
-        for(j=0; j <= 4; j++){
+    for(i=0; i < count; i++) {
+        for(j=0; j < count; j++){
             if(strcmp(user[i].date, user[j].date) < 0){
                 // Save the values of user[i] to temp variables.
                 strcpy(tempname, user[i].name);
