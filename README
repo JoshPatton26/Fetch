@@ -5,4 +5,4 @@ this project entirely in C. I developed this program on VSCode with Msys2 gcc as
 For testing purposes please make sure you are using Msys2 gcc as the compiler, clang might work but I have not tested. And make sure 
 that you are running the code in a WSL environment for best results. To compile the code you will use the command 'gcc fetch.c -o fetch', 
 and to run the code use './fetch <num of points to spend> <name of .csv file>' Eg. './fetch 500 transactions.csv.' All the code compiled 
-and ran with no errors or warnings on my computer.
+and ran with no errors or warnings on my local computer.
