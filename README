@@ -1,3 +1,5 @@
+#Fetch Take Home Test
+
 In this assignment I was asked to read the input from a .csv file containing a list of transactions from the user point system. I was asked to 
 write a program that took two arguments 1) the amounts of points to spend, 2) the name of the .csv file. I chose to write this project 
 entirely in C. I developed this program on VSCode with Msys2 gcc as the compiler, while using WSL to compile and run the code. 
